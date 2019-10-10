@@ -1,1 +1,59 @@
-<p>project works!</p>
+<div class="header">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <font class="title">Project <br>Showcase</font>
+      </div>
+      <div class="col-sm mt-3" style="font-size: 1.3rem;">
+        <span style="font-weight: bold;font-size: 1.5rem;"><</span> 2018 was probably my best year yet. Decided to quickly throw a case study of the work I did for the past year. <span style="font-weight: bold;font-size: 1.5rem;">/></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-100"></div>
+  
+</div>
+
+<!-- <div class="repo-container">
+    <div class="row" id="output"></div>
+</div> -->
+
+
+
+<!-- <script type="text/javascript">
+  // To fetch Github Repos
+
+   getRepos = () => {
+fetch(
+"https://api.github.com/users/ingeniousambivert/repos?sort=created:asc&client_id=22ea12584240e7a2631f&client_secret=bc2deb37cb23d714f3b16483ba93a4a0e61f93e9"
+)
+.then(res => res.json())
+.then(data => {
+  let output = "";
+        let len = 0;
+  data.forEach(function(repo) {
+        icon = () => {
+          return len % 3 === 0 ? 'icon fa-file-code-o ' : 'icon fa-code' ;
+          }
+      output += `
+    <div class="col-sm-6">
+  <div class="card" style="margin:2%; border:1px solid #bfbfbf;">
+  <div class="card-body">
+    <h5 class="card-title"><strong><i class="${icon()}"> </i><a target='_blank' style='color:#6e6096'; href="${
+    repo.html_url
+    }">${repo.name}</a></strong> </h5>
+<p class="card-text">${repo.description}</p>
+  </div>
+  </div>
+</div>
+`;
+len++;	
+    });
+  
+    document.getElementById("output").innerHTML = output;
+  })
+  .catch(err => console.log(err));
+}
+getRepos();
+</script> -->

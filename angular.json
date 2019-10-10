@@ -118,8 +118,17 @@
               "devServerTarget": "devils:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/devils",
+            "netlifyToken": "",
+            "siteId": "blackdevil"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "devils"
 }
