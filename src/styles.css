@@ -4,7 +4,7 @@ body{
 }
 
 *{
-    background: #000;
-    color: #fff;
-    font-family: 'Nunito Sans', sans-serif;
+    background: #f2f2f2;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'Source Code Pro', monospace;
 }
