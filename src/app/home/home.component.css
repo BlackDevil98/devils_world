@@ -1,9 +1,61 @@
 h1{
     letter-spacing: 10px;
 }
+a{
+    color: #000;
+}
+.line{
+   width: 20%;
+}
+.contain{
+    padding-top:10%;
+}
 
+.about{
+    font-size: 1.3rem;
+    width: 70%;
+}
+a:hover{
+    color:#4c32ff;
+}
 .header{
     height: 100vh;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media (max-width: 500px) {
+    ul{
+        display: none;
+    }
+
+    .header {
+        height: auto;
+        padding-top: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom: 4%;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .ad{
+        display: none;
+    }
+
+    .contain{
+        padding-top:2%;
+    }
+    .pclass{
+        padding-top: 5%;
+    }
+
+    .line{
+        width: 100%;
+    }
+
 }
 .parallax {
     /* The image used */
