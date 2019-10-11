@@ -1,0 +1,14 @@
+.footer{
+    background-color: #1f1f1f;
+    color:#fff;
+    margin: 0;padding: 0;
+}
+
+@media (max-width: 500px){
+    .cont{
+        padding-top: 0;
+    }
+    hr{
+        margin-top: 5%;
+    }
+}

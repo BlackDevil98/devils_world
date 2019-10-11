@@ -10,6 +10,7 @@ import { CreateComponent } from './create/create.component';
 import { DevilsComponent } from './devils/devils.component';
 import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
+import { FootersComponent } from './footers/footers.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AboutComponent } from './about/about.component';
     CreateComponent,
     DevilsComponent,
     ProjectComponent,
-    AboutComponent
+    AboutComponent,
+    FootersComponent
   ],
   imports: [
     BrowserModule,
